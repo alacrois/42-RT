@@ -1,0 +1,43 @@
+{
+	"camera":{
+				"pos":[0,0,0],
+				"angle":[0,0,0]
+	},
+	"light":{
+				"source":[0,200,0],
+				"color":[80,80,80,0]
+	},
+	"ambientlight":{
+		"color":[5,5,5,0]
+	},
+	"objects":[
+		{
+				"type":"cylinder",
+				"pos":[-5,-1,10],
+				"vector":[1,1,4],
+				"radius":2,
+				"INF":true,
+				"color":[255,100,100,0],
+				"rotate":[0,0,0],
+				"reflex":100
+		},
+		{
+				"type":"plane",
+				"pos":[0,-20,0],
+				"vector":[0,10,0],
+				"color":[120,180,120,0],
+				"rotate":[0,0,0],
+				"reflex":180
+		},
+		{
+				"type":"cylinder",
+				"pos":[5,-1,10],
+				"vector":[-1,1,4],
+				"radius":2,
+				"INF":true,
+				"color":[100,100,255,0],
+				"rotate":[0,0,0],
+				"reflex":100
+		}
+]
+}
