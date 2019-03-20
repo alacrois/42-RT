@@ -1,76 +1,85 @@
 {
 	"camera":{
-				"pos":[50,-50,-500],
-				"angle":[0,0,0]
+				"pos":[-20,0,-30],
+				"angle":[0,-10,0]
 			},
 	"light":{
-				"source":[100,-100,0],
-				"color":[75,75,75,0]
+				"source":[-30,150,-100],
+				"color":[50,50,50,0]
 			},
-	"light":{
-				"source":[-100,100,0],
-				"color":[75,75,75,0]
-			},
-	"light":{
-				"source":[-20,-33,-350],
-				"color":[75,75,75,0]
-			},
-	"light":{
-				"source":[-100,-50,0],
-				"color":[75,75,75,0]
+	"ambientlight":{
+				"color":[0,0,0,0]
 			},
 	"objects":[
 				{
 					"type":"sphere",
-					"pos":[-150,0,150],
-					"radius":20,
-					"color":[255,255, 255,0],
-					"reflex":0
+					"pos":[-26,4,18],
+					"radius":7,
+					"color":[200,200,100,0],
+					"reflex":200
+				},
+				{
+					"type":"plane",
+					"pos":[0,-50,0],
+					"vector":[0,10,0],
+					"color":[120,180,120,0],
+					"rotate":[0,0,0],
+					"reflex":100
 				},
 				{
 					"type":"cone",
-					"pos":[-30, 5,10],
+					"pos":[0,0,19],
 					"vector":[2,2,-3],
-					"angle":5,
+					"angle":10,
 					"INF":true,
 					"color":[25,150,150,0],
 					"rotate":[0,0,0],
-					"reflex":0
+					"reflex":100
 				},
 				{
-					"type":"polyobject",
-					"pos":[-20,-33,-300],
-					"size":5,
-					"adresse":"teapot.obj",
-					"color":[125,80,80,0],
+					"type":"cone",
+					"pos":[7,0,20],
+					"vector":[-2,-4,-2],
+					"angle":25,
+					"INF":false,
+					"color":[75,60,150,0],
 					"rotate":[0,0,0],
-					"reflex":0
+					"reflex":100
+				},
+				{
+					"type":"dodeca",
+					"pos":[4,-6,6],
+					"size":4,
+					"color":[100,50,200,50],
+					"rotate":[0,0,0],
+					"reflex":100
 				},
 				{
 					"type":"cube",
-					"pos":[-130, 120,60],
-					"size":30,
-					"color":[120,255,255,0],
+					"pos":[-6,-5,28],
+					"size":12,
+					"color":[80,80,80,50],
 					"rotate":[0,0,0],
-					"reflex":0
-				},
-				{
-					"type":"tetrahedron",
-					"pos":[-170, 80,60],
-					"size":30,
-					"color":[120,255,255,0],
-					"rotate":[0,0,0],
-					"reflex":0
+					"reflex":100
 				},
 				{
 					"type":"cylinder",
-					"pos":[-180,5,100],
+					"pos":[-4,-5,25],
 					"vector":[-8,8,10],
-					"radius":10,
+					"radius":2,
 					"INF":true,
+					"color":[175,60,75,0],
+					"rotate":[0,20,-10],
+					"reflex":0
+				},
+				{
+					"type":"pyramide",
+					"pos":[7,6,50],
+					"base_size":10,
+					"height":6,
 					"color":[150,50,100,0],
 					"rotate":[0,0,0],
-					"reflex":0
+					"reflex":100
 				}
 	]
 }
