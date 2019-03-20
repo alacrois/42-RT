@@ -1,4 +1,5 @@
 42 Raytracing project
+
 You need to have GTK 3 installed to compile.
 
 Scene "exemple1.json" :
